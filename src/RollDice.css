@@ -1,8 +1,19 @@
-.container{
+.RollDice{
     text-align:center;
 }
 
-.btn{
+.RollDice-button{
     margin: 0 auto;
     display:block;
+    width: 12em;
+    height:3em;
+    border:0px;
+    background-color:rgb(69, 188, 204);
+    border-radius:10px;
+}
+
+.RollDice-button:hover{
+    cursor:pointer;
+    background-color:rgb(62, 167, 167);
+    color:white;
 }
